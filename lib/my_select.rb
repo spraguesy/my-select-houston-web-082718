@@ -3,10 +3,8 @@ def my_select(collection)
  collection.select do |collect|
    if collect == true
      return true
-   else 
+   else
      return false
    end
- end  
+ end
 end
-
-
